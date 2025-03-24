@@ -11,28 +11,28 @@ package MIDTERM;
 
 class Calculator {
 
-    // Method for addition
+    
     public double add(double x, double y) {
         return x + y;
     }
 
-    // Method for subtraction
+    
     public double subtract(double x, double y) {
         return x - y;
     }
 
-    // Method for multiplication
+    
     public double multiply(double x, double y) {
         return x * y;
     }
 
-    // Method for division
+    
     public double divide(double x, double y) {
         if (y != 0) {
             return x / y;
         } else {
             System.out.println("Error! Division by zero.");
-            return Double.NaN; // Return NaN (Not a Number) to indicate error
+            return Double.NaN;
         }
     }
 }
