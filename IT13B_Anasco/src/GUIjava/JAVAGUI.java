@@ -18,6 +18,7 @@ import javax.swing.JTextField;
 
 public class JavaGUI {
 
+    public JavaGUI() {
         
         JFrame frame = new JFrame("Login Form");
 
